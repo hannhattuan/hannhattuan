@@ -1,0 +1,108 @@
+.footer {
+    position: absolute;
+    left: 226px;
+    bottom: 0;
+    height: 56px;
+    width: calc(100vw - 226px);
+}
+
+.footer .display {
+    color: black;
+    float: left;
+    padding-left: 32px;
+    margin-top: 24px;
+    font-size: 11px;
+}
+
+.footer .page {
+    display: flex;
+    float: right;
+    padding-right: 24px;
+    margin-top: 24px;
+    font-size: 11px;
+}
+
+.footer .button {
+    float: left;
+    margin-left: 200px;
+    height: 56px;
+    width: 500px;
+}
+
+.footer .button .first-page {
+    float: left;
+    margin-top: 10px;
+    height: 36px;
+    width: 36px;
+    background-image: url(../../content/icon/btn-firstpage.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.footer .button .prev-page {
+    float: left;
+    margin-top: 10px;
+    margin-left: 8px;
+    height: 36px;
+    width: 36px;
+    background-image: url(../../content/icon/btn-prev-page.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.footer .button .page-1 {
+    float: left;
+    text-align: center;
+    align-items: center;
+    margin-left: 8px;
+    margin-top: 10px;
+    line-height: 36px;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: #019160;
+    color: white;
+    cursor: pointer;
+}
+
+.footer .button .page-2 {
+    float: left;
+    text-align: center;
+    align-items: center;
+    margin-left: 8px;
+    margin-top: 10px;
+    line-height: 36px;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border: 1px solid #bbbbbb;
+    background-color: #e5e5e5;
+    color: black;
+    cursor: pointer;
+}
+
+.footer .button .next-page {
+    float: left;
+    margin-top: 10px;
+    margin-left: 8px;
+    height: 36px;
+    width: 36px;
+    background-image: url(../../content/icon/btn-next-page.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.footer .button .last-page {
+    float: left;
+    margin-top: 10px;
+    margin-left: 8px;
+    height: 36px;
+    width: 36px;
+    background-image: url(../../content/icon/btn-lastpage.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
